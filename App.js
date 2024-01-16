@@ -27,6 +27,7 @@ import {
 } from 'react-native/Libraries/NewAppScreen';
 import { createNativeStackNavigator } from '@react-navigation/native-stack';
 import { NavigationContainer } from '@react-navigation/native';
+import PracticeMemo from './PracticeMemo'
 const Stack = createNativeStackNavigator();
 function DetailsScreen() {
   return (
@@ -38,7 +39,7 @@ function DetailsScreen() {
 }
 function HomeScreen({ navigation }) {
   return (
-    <View style={{ flex: 1, backgroundColor:'red',alignItems: 'center', justifyContent: 'center' }}>
+    <View style={{ flex: 1, backgroundColor:'green',alignItems: 'center', justifyContent: 'center' }}>
       <Text>Home Screen</Text>
       <Button
         title="Go to Details"
@@ -58,7 +59,7 @@ function App(){
   component={HomeScreen}
   options={{ title: 'Overview' }}
 />
-      <Stack.Screen name="Details" component={DetailsScreen} />
+      <Stack.Screen name="Details" component={PracticeMemo} />
     </Stack.Navigator>
   </NavigationContainer>
   );
