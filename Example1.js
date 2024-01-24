@@ -7,7 +7,13 @@ const Example1 = () => {
     <View style={{flex: 1}}>
       <Animatable.Image
         source={require('./images/food1.png')}
-        style={{width: 350, height: 350, marginLeft: -50, marginTop: -50}}
+        style={{width: 300, height: 300, marginLeft: 50, marginTop: 50}}
+        animation={'zoomIn'}
+        duration={1400}
+      />
+      <Animatable.Image
+        source={require('./images/food2.png')}
+        style={{width: 150, height: 150, marginRight: -50, marginTop: 50,}}
         animation={'zoomIn'}
         duration={1400}
       />
