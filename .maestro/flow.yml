@@ -1,0 +1,10 @@
+appId: org.reactjs.native.example.makemybudget
+---
+
+- launchApp:
+    appId: "org.reactjs.native.example.makemybudget"
+    stopApp: true
+    clearState: true 
+- tapOn:
+    id: "SignInButton"
+    

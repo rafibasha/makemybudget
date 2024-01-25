@@ -1,0 +1,44 @@
+React Native Lifecycle:A component’s lifecycle can be divided into 4 parts:
+1.Mounting
+2.Updating
+3.unMounting
+4.Error handling 
+
+Mounting:when an instance of a component is being created and inserted into the DOM
+    1.constructor()
+    2.getDerivedStateFromProps()
+    3.render()
+    4.componentDidMount()
+Updating:
+    1.static getDerivedStateFromProps()
+    2.shouldComponentUpdate()
+    3.render()
+    4.getSnapshotBeforeUpdate()
+    5.componentDidUpdate()
+unMounting:
+    1.componentWillUnmount()
+
+Error Handling:
+    1.static getDerivedStateFromError()
+    2.componentDidCatch()
+Ref:https://www.netguru.com/blog/react-native-lifecycle
+--------------------------------
+Functional components
+
+Hooks
+Ref:https://react.dev/reference/react/hooks
+    usestate
+    useEffect
+    useMemo
+    useCallback
+    useRef
+    useReducer
+    useContext
+    useImperativeHandle
+    useDebugValue
+    useSyncExternalStore
+    useLayoutEffect
+    useInsertionEffect
+    useTransition
+    useDeferredValue
+    CustomHooks

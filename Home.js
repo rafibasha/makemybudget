@@ -11,6 +11,7 @@ const Home = (props) => {
         onPress={() => props.navigation.navigate('Details')}
       />
       <Button
+       testID="SignInButton"
         title="Go to Example1"
         onPress={() => props.navigation.navigate('Example1')}
       />
