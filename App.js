@@ -48,6 +48,7 @@ function HomeScreen({navigation}) {
         justifyContent: 'center',
       }}>
       <Text>Home Screen</Text>
+      <Text>Home Screen2</Text>
       <Button
         title="Go to Details"
         onPress={() => navigation.navigate('Details')}
